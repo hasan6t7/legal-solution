@@ -10,6 +10,9 @@
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 
+<!-- Font Awesome  -->
+<script src="https://kit.fontawesome.com/bbfc4be646.js" crossorigin="anonymous"></script>
+
 <!-- Google Font CDN -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +33,9 @@
             extend: {
                 colors: {
                     clifford: '#da373d',
+                    'legal-1': 'rgb(182, 140, 90)',
+                    'legal-2': 'rgb(65, 64, 64)',
+                    'legal-3': 'rgb(112, 112, 112)',
                 }
             }
         }
@@ -39,7 +45,333 @@
 
 <body class="eb-garamond-font">
 
-    <h1>Hello! I am Hasan</h1>
+    <!-- Header Section  -->
+    <header class="max-w-screen-lg mx-auto">
+        <!-- Nav Section  -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li>
+                                <details>
+                                    <summary>Services</summary>
+                                    <ul class="p-2">
+                                        <li><a>Submenu 1</a></li>
+                                        <li><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Cases</summary>
+                                    <ul class="p-2">
+                                        <li><a>Submenu 1</a></li>
+                                        <li><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Blog</summary>
+                                    <ul class="p-2">
+                                        <li><a>Submenu 1</a></li>
+                                        <li><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>Contact Us</summary>
+                                    <ul class="p-2">
+                                        <li><a>Submenu 1</a></li>
+                                        <li><a>Submenu 2</a></li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-xl">Justice</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li>
+                            <details>
+                                <summary>Services</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Cases</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Blog</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary>Contact Us</summary>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </details>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-legal-1 text-white">Free Consultaion</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Hero Section  -->
+        <section>
+            <div class="hero  md:h-[550px] rounded-lg"
+                style="background: linear-gradient(0.00deg, rgb(17, 17, 17),rgba(17, 17, 17, 0) 100%) , url(./images/banner.png); background-repeat: no-repeat; background-size:cover;">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-neutral-content text-center">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">We Provide Effective Legal Solutions</h1>
+                        <p class="mb-5 text-[1rem]">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour.
+                        </p>
+                        <div class="flex gap-4 justify-center">
+                            <input class="input md:w-full " placeholder="Search your services" />
+                            <button
+                                class="px-4 bg-legal-1 font-semibold text-[1.25rem] text-white rounded-lg">Search</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </header>
+
+    <!-- Main Section  -->
+    <main class="max-w-screen-lg mx-auto my-24">
+        <section>
+            <h2 class="font-bold text-3xl text-legal-2 text-center mb-4">The Legal Practice Area</h2>
+            <p class="text-legal-3 text-xl text-center px-4 md:px-0">There are many variations of passages of Lorem
+                Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+
+            <!-- card  -->
+            <div class="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 mt-16">
+                <!-- card-1  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)] mb-10">
+                    <img class="mx-auto mb-4" src="./images/business.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Business Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- card-2  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)]">
+                    <img class="mx-auto mb-4" src="./images/criminal.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Criminal Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- card-3  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)]">
+                    <img class="mx-auto mb-4" src="./images/child.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Chield Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- card-4  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)]">
+                    <img class="mx-auto mb-4" src="./images/education.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Education Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- card-5  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)]">
+                    <img class="mx-auto mb-4" src="./images/divorce.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Divorce Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- card-6  -->
+                <div class="px-16 bg-gradient-to-r form-[rgb(243, 243, 243)] to-[rgba(243, 243, 243, 0)]">
+                    <img class="mx-auto mb-4" src="./images/tax.png" alt="">
+                    <h1 class="font-bold text-3xl text-legal-2 text-center mb-4">Tax Law</h1>
+                    <p class="text-legal-3 text-xl text-center mb-4">There are many variations of passages of Lorem
+                        Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+                    <div class="flex justify-center items-center ">
+                        <button class="bg-legal-1 p-2 rounded-full"><i class="fa-solid fa-arrow-right text-white"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="max-w-screen-lg mx-auto my-24">
+            <h2 class="font-bold text-3xl text-legal-2 text-center mb-4">What Our Client Say</h2>
+            <p class="text-legal-3 text-xl text-center px-4 md:px-0">There are many variations of passages of Lorem
+                Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+
+            <div class="mt-24">
+                <div class="carousel w-full rounded-lg">
+                    <!-- slide-1  -->
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <div class="hero" style="background-image: url(./images/slider-1.jpg); border-radius: 8px;">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-md">
+                                    <div class="avatar mt-20">
+                                        <div
+                                            class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                            <img
+                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                        </div>
+                                    </div>
+                                    <h1 class="mb-2 text-2xl font-bold">Md Hasanujjaman</h1>
+                                    <h1 class="mb-5 text-sm font-bold">Full Stack Developer</h1>
+                                    <p class="mb-28">
+                                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                        exercitationem
+                                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+                    <!-- slide-2  -->
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <div class="hero" style="background-image: url(./images/slider-2.jpg); border-radius: 8px;">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-md">
+                                    <div class="avatar mt-20">
+                                        <div
+                                            class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                            <img
+                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                        </div>
+                                    </div>
+                                    <h1 class="mb-2 text-2xl font-bold">Md Hasanujjaman</h1>
+                                    <h1 class="mb-5 text-sm font-bold">Full Stack Developer</h1>
+                                    <p class="mb-28">
+                                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                        exercitationem
+                                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+                    <!-- slide-3  -->
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <div class="hero" style="background-image: url(./images/slider-3.jpg); border-radius: 8px;">
+                            <div class="hero-overlay bg-opacity-60"></div>
+                            <div class="hero-content text-neutral-content text-center">
+                                <div class="max-w-md">
+                                    <div class="avatar mt-20">
+                                        <div
+                                            class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
+                                            <img
+                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                        </div>
+                                    </div>
+                                    <h1 class="mb-2 text-2xl font-bold">Md Hasanujjaman</h1>
+                                    <h1 class="mb-5 text-sm font-bold">Full Stack Developer</h1>
+                                    <p class="mb-28">
+                                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                                        exercitationem
+                                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+
+
+            </div>
+        </section>
+
+    </main>
 
 
 </body>
