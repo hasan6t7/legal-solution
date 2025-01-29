@@ -60,7 +60,7 @@
                             </svg>
                         </div>
                         <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-lg font-semibold">
                             <li><a>Home</a></li>
                             <li>
                                 <details>
@@ -100,10 +100,10 @@
                             </li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">Justice</a>
+                    <img src="./images/logo2.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 text-lg font-semibold">
                         <li><a>Home</a></li>
                         <li>
                             <details>
@@ -282,8 +282,7 @@
                                     <div class="avatar mt-20">
                                         <div
                                             class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                                            <img
-                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                            <img src="" />
                                         </div>
                                     </div>
                                     <h1 class="mb-2 text-2xl font-bold">Md Hasanujjaman</h1>
@@ -313,8 +312,7 @@
                                     <div class="avatar mt-20">
                                         <div
                                             class="ring-primary ring-offset-base-100 w-24 rounded-full ring ring-offset-2">
-                                            <img
-                                                src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                                            <img src="" />
                                         </div>
                                     </div>
                                     <h1 class="mb-2 text-2xl font-bold">Md Hasanujjaman</h1>
@@ -471,23 +469,24 @@
 
                 <!-- input  -->
                 <div class="w-full lg:w-1/2  space-y-8 ">
-                    <label class="w-full flex items-center ">   
-                        <input type="text" class="w-full  placeholder:text-xl placeholder:p-3"  placeholder="Name" />
+                    <label class="w-full flex items-center ">
+                        <input type="text" class="w-full  placeholder:text-xl placeholder:p-3 placeholder:py" placeholder="Name" />
                     </label>
-                    
-                    <label class="w-full  flex items-center ">    
+
+                    <label class="w-full  flex items-center ">
                         <input type="email" class="w-full  placeholder:text-xl placeholder:p-3" placeholder="Email" />
                     </label>
-                    
+
                     <label class="w-full  flex items-center ">
                         <input type="text" class="w-full  placeholder:text-xl placeholder:p-3" placeholder="Subject" />
                     </label>
 
                     <label class="w-full  flex items-center ">
-                        <textarea class="w-full  placeholder:text-xl placeholder:p-3" name="" id="" placeholder="Your Message"></textarea>
+                        <textarea class="w-full  placeholder:text-xl placeholder:p-3" name="" id=""
+                            placeholder="Your Message"></textarea>
                     </label>
 
-                    <label class="w-full  flex ">    
+                    <label class="w-full  flex ">
                         <button class="w-full bg-legal-1 text-white font-bold p-3 rounded-lg">Send Message</button>
                     </label>
 
@@ -499,6 +498,40 @@
         </section>
 
     </main>
+
+    <footer class="footer bg-[#111111] text-[#FFFFFF] p-10 text-lg">
+        <nav>
+
+            <img class="mb-4 opacity-60" src="./images/logo.png" alt="">
+
+            <p class="w-[250px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-2xl">Useful Links</h6>
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Jobs</a>
+        </nav>
+        <nav>
+            <h6 class="footer-title text-2xl">Legal</h6>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+            <h6 class="footer-title text-2xl">Newsletter</h6>
+            <fieldset class="form-control w-80">
+                <label class="label">
+                    <span class="">Enter your email address</span>
+                </label>
+                <div class="join">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered join-item placeholder:text-lg font-bold text-black" />
+                    <button class="btn bg-legal-1 join-item"><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </fieldset>
+        </form>
+    </footer>
 
 
 </body>
